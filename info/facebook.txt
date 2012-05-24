@@ -1,0 +1,4 @@
+	
+SocialUFRO
+App ID:	214634548646798
+App Secret:	078a53c94165ef44d185169e3acdcd48

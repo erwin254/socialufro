@@ -1,0 +1,101 @@
+body {
+	/*
+	overflow-y: scroll;
+	background: #333;
+	font-family: Helvetica, Arial;
+	font-size: 16px;
+	padding: 0 0;
+	margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	*/
+}
+#publicacion{
+	float: left;
+	width: 86%; 
+	border: 0; 
+	box-shadow: 0; 
+	outline: none;
+	min-width: 440px;
+	border: 1px solid #ccc; 
+	padding: 7px 0; 
+	margin: 5px 0% 0 2%; 
+	background: #fff;
+	display: inline;
+}
+#enviar_pub{
+	width: 40px;
+	margin: 5px 0 0 0; 
+}
+#more_pub{
+	width: 10px;
+	margin: 5px 2% 0 0;  
+	border-left:none;
+}
+#img_logo1 {
+	height: 70px;
+}
+
+#img_logo2 {
+	height: 60px;
+	margin-left: -3px;
+	margin-top: -8px;
+}
+/*desde acá comienza el body*/
+#cuerpo {
+	margin-top: 5px;
+}
+
+#ramos {
+	height: 600px;
+	width: 20%;
+	background: #686868;
+}
+#timeline {
+	height: 600px;
+	width: 59%;
+	background: white;
+}
+
+#unidades {
+	height: 600px;
+	width: 20%;
+	background: #686868;
+}
+
+#post {
+	
+}
+/*
+.datos {
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	margin: 0px 0px 0px 0px;
+	font-size: 0.8em;
+}*/
+.boton_send{
+	float: left;
+	padding: 7px; 
+	background:rgb(220, 95, 0);
+	display: inline;
+	border: 1px solid #ccc; 
+	text-decoration: none;
+	color: white;
+	text-shadow:0 1px 0 grey;
+	height:18px;
+}
+.centrar {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0px 0px 0px 0px;
+	border-radius: 0.5em;
+}
+
+.publicar {
+	font-size:0.9em;
+	border-bottom:1px solid #bbb;
+	padding:10px 10px 5px 10px;
+	height: 47px;
+}

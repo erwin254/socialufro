@@ -1,0 +1,131 @@
+@CHARSET "ISO-8859-1";
+body {
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
+	background-attachment: fixed;
+	background-image: url("../images/back_ini.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #FFFFFF;
+	font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+	font-size: 13px;
+	margin: 0;
+	position: absolute;
+	text-align: center;
+	width: 100%; }
+ 
+#contact {
+	height: 300px;
+	margin: 0;
+	padding: 50px 0 0 0;
+	width: 1300px; }
+
+ 
+#login {
+	color: #FFFFFF;
+	display: block;
+	height: 150px;
+	left: 30%;
+	margin: 0px auto 0px auto;
+	overflow-x: hidden;
+	overflow-y: auto;
+	position: relative;
+	top: 69%;
+	width: 470px; }
+ 
+#acerca_inscripcion {
+	display: block;
+	height: 160px;
+	margin: 0px auto 0px 50px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	position: relative;
+	right: 0%;
+	top: 10%;
+	width: 470px; }
+ 
+#logo {
+	clear: both;
+	display: block;
+	height: 220px;
+	margin: 30px auto 0 auto;
+	position: absolute;
+	top: 10%; }
+ 
+#estilofooter {
+	color: white;
+	font-size: 10px;
+	left: center;
+	position: relative;
+	text-decoration: none;
+	text-shadow: 2px 2px 5px black;
+	top: 245px; }
+
+#mensaje {
+	height: 65px;
+	width: 450px; }
+
+#conocenos {
+	border-radius: 40px 0px 0px 40px;
+	float: right;
+	top: 250px;	
+	position: relative;	
+	text-decoration: none;
+	width:100px;} 
+
+#button_facebook{
+	left: 160px;
+	position: absolute;
+	top: 450px;
+}
+
+#button_twitter{
+	left: 60px;
+	position: absolute;
+	top: 450px;
+}
+
+#button_gPlus{
+	left: 375px;
+	position: absolute;
+	top: 450px
+}
+
+#button_tumblr{
+	left: 280px;
+	position: absolute;
+	top: 450px
+}
+	 
+.contenedor {
+	background: rgba(10, 10, 10, 0.5);
+	border-radius: 7px;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0 15px black;
+	display: inline-block;
+	overflow: hidden;
+	padding: 10px;
+	position: absolute; }
+ 
+.button {
+	background: #FF9900;
+	border-radius: 3px;
+	box-shadow: 2px 2px 5px black;
+	color: black;
+	cursor: pointer;
+	font-size: 14px;
+	height: 10px;
+	padding: 8px 0 15px 0;
+	position: absolute;
+	text-align: center;
+	text-decoration: none;
+	width: 85px; }
+
+.posicion_button{
+	left: 25%;}
+ 
+.button:active { background: #DB8300; }
+ 
+.barra_input { border-radius: 5px }
+

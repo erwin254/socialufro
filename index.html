@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SocialUfro</title>
+    <link rel="icon" type="image/x-icon" href="images/FaviconSocialUfro.ico"/>
+    <link type="text/css" href="css/inicioStyle.css" rel="stylesheet">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <script type="text/javascript" src="js/ajaxValidacion.js"></script>
+
+
+<script type="text/javascript">
+
+function justNumbers(e) {
+var keynum = window.event ? window.event.keyCode : e.which;
+if ( keynum == 8 || keynum==107 || keynum==75 ) return true;
+return /\d/.test(String.fromCharCode(keynum));
+}
+</script>
+
+<!--face-->
+
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1&appId=125206519712";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!--fin face-->
+<!--twitt-->
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<!--fin twitt-->
+<!--gPlus-->
+<script type="text/javascript">
+  window.___gcfg = {lang: 'es'};
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+<!--fin gPlus-->
+<!--tumblr-->
+<script type="text/javascript" src="http://platform.tumblr.com/v1/share.js"></script>
+<!--fin tumblr-->
+</head>
+<body>
+<div id="fb-root"></div>
+    <!--
+<img src="images/back_ini.jpg"> -->
+<a href="http://social.ufro.cl"><img src="images/Logo-alpha1(white).png" id="logo"></a>
+<!--
+<span id="titulo" >Social Ufro</span> -->
+<span id="subtitulo" ></span>
+
+<section id="contact">
+    <section id="login" class="contenedor">
+ 
+        <form class="registro" name="ingresar" method="post">           
+            
+            <table width="200" align="center" >
+                <section Style="font-size:20px">Iniciar Sesión<HR color="#FF9900"></section>
+                <tr> 
+                    <td>
+                        Usuario:
+                    </td>   
+                    <td>
+                        <input class="barra_input" name="CampoUsuario" type="text" id="usuario" /></input>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Contraseña:
+                    </td>
+                    <td>
+                         <input class="barra_input" name="CampoPass" type="password" id="contrasena" /></input>
+                    </td>
+                </tr>
+                <tr>                   
+                    <td width="200">
+                        <a class="posicion_button button"  type="submit" name="Submit" value="Entrar" onclick="validarUsuario();" href="#" />Entrar</a >
+                    </td>                    
+                </tr>
+            </table>
+        </form>                 
+    </section>
+
+
+    <section id="acerca_inscripcion" class="contenedor">
+        <section><img id="mensaje" src="images/text.png"></section>
+        <HR color="#FF9900">
+        
+        <form name="Registro" method="post" action="ValidaDatos.php">
+            <table width="200" align="center">
+                <tr>
+                    <td>
+                        Num.Matricula:
+                    </td>
+                    <td>
+                    <input class="barra_input" name="id_matricula" type="text" id="id_matricula" onkeypress="return justNumbers(event);" maxlength="11"></input>
+                    </td>
+                </tr>                   
+                <tr>                    
+                    <td width="200">
+                        <a class="posicion_button button" href="#" class="contenedor" onclick="enviarMail();">Enviar</a>
+                    </td>
+                    <div id="matricula"></div>
+                </tr>
+            </table>
+        </form> 
+    </section>
+</section>
+
+<section id="button_facebook">
+    <div class="fb-like" data-href="http://social.ufro.cl" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true"></div>
+</section>
+
+<section id="button_twitter">
+    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://social.ufro.cl" data-text="Visiten" data-lang="es" data-hashtags="SocialUfro">Twittear</a>    
+</section>
+
+<section id="button_gPlus">
+<g:plusone size="tall" annotation="inline" href="http://social.ufro.cl"></g:plusone>
+</section>
+
+<section id="button_tumblr">
+<a href="http://www.tumblr.com/share/link?url=http://social.ufro.cl"; name="SocialUfro"; description="Web social de integracion de plataformas" title="Comparte en Tumblr" style="display:inline-block; text-indent:-9999px; overflow:hidden; width:81px; height:20px; background:url('http://platform.tumblr.com/v1/share_1.png') top left no-repeat transparent;">Comparte en Tumblr</a>
+</section>
+
+<!--  <a id="conocenos" class="button" href="desarrolladores.html" />Conócenos</a>..........NO BORRAR-->
+
+<footer id="estilofooter">
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Licencia de Creative Commons" style="border-width:0" 
+            src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" 
+            href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">SocialUfro</span> by
+            <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">SocialUFRO comunnity </span> is licensed under a 
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Reconocimiento-NoComercial-CompartirIgual 3.0
+            Unported License</a>.             
+</footer>
+
+</body>
+</html>

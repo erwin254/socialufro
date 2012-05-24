@@ -1,0 +1,26 @@
+#chat input {
+	display: block;
+	font-size: 12px;
+	margin: 1em auto;
+	padding: 0.5em;
+	width: 95%;
+}
+
+#chat span {
+	display: block;
+	font-size: 12px;
+	margin: 1em auto;
+	padding: 0.5em;
+	width: 95%;
+	text-align: left;
+}
+
+#chat .container {
+	background: #FF6F00;
+	border-radius: 1em;
+	box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+	text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+	margin: 1em auto;
+	padding: 1em;
+	width: 90%;
+}

@@ -1,0 +1,32 @@
+#resultado p a{
+	display: block;
+	background: none;
+	box-shadow: 0 5px 0 #BBBBBB;
+	border-radius: 0 1em 1em 0;
+	color: #686868;
+	font-weight:bold;
+	list-style: none;
+	padding: 5px 20px;
+	position: relative;
+	text-decoration: none;
+	top: 1em;
+/*
+		-moz-transition: all 1s;
+		-webkit-transition: all 1s;
+		-o-transition: all 1s;
+		transition: all 1s;*/
+}
+#resultado p a:hover {
+	background: rgba(0, 0, 0, 0.1);
+}
+#inscribir {
+	height: 30px;
+}
+#botonEntrar{
+	background: rgb(104, 104, 104);
+	padding: 0px 15px 3px 10px;
+	color: #E1E1E1;
+	font-weight: bold;
+	text-decoration: none;
+	border-radius: 0 0 15px 0;
+}
